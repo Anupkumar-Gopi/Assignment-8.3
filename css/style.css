@@ -1,0 +1,36 @@
+body{
+	font-family:"calibri",sans-serif;
+	font-size:14px;
+}
+input[type=text],
+input[type=password],
+input[type=email]{
+	width:300px;
+	padding:5px;
+	margin-bottom:10px;
+}
+.btn{
+	width:230px;
+	padding:5px;
+}
+.actn{
+	margin-top:10px;
+}
+#msg {
+	color:#ff0000;		
+	width:300px;
+	padding:5px;
+	margin-top:5px;
+	display:none;
+}
+label{
+	font-weight:bold;
+	font-size:16px;
+	display:inline-block;
+	text-align:right;
+	padding-right:10px;
+}
+input[disabled]{
+	background:#fefefe;
+	border:1px solid #eaeaea;
+}
